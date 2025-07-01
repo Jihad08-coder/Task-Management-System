@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('images/cover.jpg'); /* image folder er vitor image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding-top: 100px;
+  background-color: rgba(202, 211, 216, 0.877); /* slight white overlay */
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.button-group .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0b8bbd;
+  color: rgba(191, 225, 225, 0.947);
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  transition: background 0.3s ease;
+}
+
+.button-group .btn:hover {
+  background-color: #0b8100;
+}
+
+  h1 {
+    margin-bottom: 30px;
+  }
+  
